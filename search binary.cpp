@@ -37,7 +37,7 @@ int main() {
     int low = 0;
     int high = 1000;
     int target = 755;
-    int result = binarySearch(arr, low, high, target);
+    int hasil = binarySearch(arr, low, high, target);
 
     if (result == -1)
         cout <<"Halaman tidak ditemukan\n" << endl;
