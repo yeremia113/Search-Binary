@@ -39,7 +39,7 @@ int main() {
     int target = 755;
     int hasil = binarySearch(arr, low, high, target);
 
-    if (result == -1)
+    if (hasil == -1)
         cout <<"Halaman tidak ditemukan\n" << endl;
     else
         cout <<"Halaman ditemukan pada indeks ke " << hasil << endl;
